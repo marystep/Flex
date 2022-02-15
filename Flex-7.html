@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Flex 7</title>
+
+    <style>
+      
+      section {
+        display: flex;
+        justify-content: center;
+      }
+
+      div {
+        background-color: rgb(137, 137, 252);
+        margin: 5px;
+        padding: 7px;
+        text-align: center;
+        color: white;
+      }
+
+      @media screen and (max-width: 575px) {
+        section {
+          display: block;
+        }
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <section>
+      
+      <div>
+        <p>ВТ</p>
+        <img src="https://webref.ru/assets/files/weather-clear.png" />
+        <p>Солнечно</p>
+      </div>
+
+      <div>
+        <p>СР</p>
+        <img src="https://webref.ru/assets/files/weather-overcast.png" />
+        <p>Облачно</p>
+      </div>
+
+      <div>
+        <p>ЧТ</p>
+        <img src="https://webref.ru/assets/files/weather-showers.png" />
+        <p>Дождливо</p>
+      </div>
+      
+    </section>
+  </body>
+</html>
