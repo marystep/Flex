@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex 4</title>
+
+    <style>
+      #main {
+        display: flex;
+        background-color: rgb(248, 242, 242);
+        padding: 15px;
+        justify-content: right;
+      }
+
+      img {
+        border-radius: 50%;
+        order: 1;
+        border: 2px solid rgb(172, 172, 172);
+      }
+
+      .text {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(90, 90, 90);
+        font-weight: 500;
+        text-align: end;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <img src="https://webref.ru/assets/files/shay-howe.jpg" height="130" />
+
+      <div>
+        <h2 class="text">Шэй Хоу</h2>
+        <p class="text">
+          Специализируется на дизайне и разработке интерфейсов, о чём регулярно
+          пишет и говорит. В настоящее время является руководителем
+          подразделения Belly. Один из организаторов таких мероприятий как
+          Chicago Camps, Refresh Chicago и UX Happy Hour.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
