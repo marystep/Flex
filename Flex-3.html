@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Flex 3</title>
+
+    <style>
+      div {
+        display: flex;
+        justify-content: space-between;
+      }
+      li {
+        display: inline;
+        background-color: rgb(248, 244, 244);
+        font-size: 16px;
+        padding: 5px 10px;
+        border: 2px solid rgb(230, 229, 229);
+      }
+      ul {
+        margin-top: 3px;
+      }
+      span {
+        font-size: 16px;
+        color: rgb(189, 189, 189);
+      }
+      #one {
+        background-color: rgb(199, 74, 2);
+        border: 2px solid rgb(179, 67, 2);
+      }
+      a {
+        text-decoration: none;
+        color: rgb(240, 96, 44);
+      }
+      #next-one {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>Стр. 1 из 4</span>
+
+      <ul>
+        <li id="one"><a href="#" alt="" id="next-one">1</a></li>
+        <li><a href="#" alt="">2</a></li>
+        <li><a href="#" alt="">3</a></li>
+        <li><a href="#" alt="">4</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
